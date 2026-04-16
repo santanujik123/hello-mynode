@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.send(`
-    <h1>Hello from your VPS Node app</h1>
-    <p>Your Docker + VPS setup is working.</p>
+    <h1>Hello from Santanu's live VPS app</h1>
+    <p>This update came through Git and GitHub.</p>
   `);
 });
 
