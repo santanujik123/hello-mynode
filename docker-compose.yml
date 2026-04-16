@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: hello-node
+    restart: unless-stopped
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
